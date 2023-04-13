@@ -36,9 +36,11 @@ The model was further advanced by coming up with  KNN and SVD models.  The KNN m
 
 
 <br><br>
-*Data Cleaning:* A new dataframes were created to contain relevant features.  Data in the nutrition dataset were stripped of irrelevant characters, converted to float type and columns renamed to contain units of measurements.  Data in the recipe data frame was converted to object type to float. The dataframes were then checked to identify the presence of duplicates and missing values. The recipe dataset only had one missing value which was dropped. Outliers were then identified and removed.
+## *Data Cleaning:* 
+A new dataframes were created to contain relevant features.  Data in the nutrition dataset were stripped of irrelevant characters, converted to float type and columns renamed to contain units of measurements.  Data in the recipe data frame was converted to object type to float. The dataframes were then checked to identify the presence of duplicates and missing values. The recipe dataset only had one missing value which was dropped. Outliers were then identified and removed.
 <br><br>
-*Exploring the Data/Selecting Features:* To build an effective food recommendation system, a comprehensive exploratory data analysis (EDA) was conducted. This involved examining the key features of the dataset, including nutrient information, calorie count, and serving size.
+## *Exploring the Data/Selecting Features:* 
+To build an effective food recommendation system, a comprehensive exploratory data analysis (EDA) was conducted. This involved examining the key features of the dataset, including nutrient information, calorie count, and serving size.
 <br><br>
 To get a better understanding of the dataset, visualizations such as scatter plots and  box plots were created. Scatter plots were used to explore the relationship between calorie count and various nutrients such as total fat, saturated fat, cholesterol, sodium, and potassium.
 <br><br>
@@ -50,7 +52,8 @@ Overall, the EDA analysis provided valuable insights into the key features of th
 
 
 <br><br>
-*Making Predictions:* The project started off with a baseline model which was a class that takes in the data frame .The recommend method takes as input a target calorie value and the number of recommendations desired, and returns a list of food recommendations that have equal and less calories than the target calorie value.
+##*Making Predictions:* 
+The project started off with a baseline model which was a class that takes in the data frame .The recommend method takes as input a target calorie value and the number of recommendations desired, and returns a list of food recommendations that have equal and less calories than the target calorie value.
 <br><br>
 The model was further advanced by coming up with  KNN and SVD models.  The KNN means model performed better and was tuned using the hyperparameters .
 
