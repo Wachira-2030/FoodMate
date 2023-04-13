@@ -10,9 +10,17 @@ The food and health industry is a highly competitive and crowded space. With so 
 This can lead to unhealthy eating habits and may have negative consequences on their overall health and wellbeing. To address these challenges, stakeholders need to develop innovative solutions that provide personalized and convenient dietary recommendations. The food recommender system with a chatbot offers a unique and effective solution that addresses these challenges. It utilizes advanced technology to analyze an individual's weight and BMI and provides personalized diet recommendations for breakfast, lunch, and dinner. It also includes easy-to-follow recipes for each meal, making healthy eating more accessible and convenient for individuals. Overall, the business problem for stakeholders is to provide effective solutions that meet the needs of individuals in the highly competitive and crowded food and health industry. The food recommender system with a chatbot offers a unique and innovative solution that addresses the lack of personalized nutrition recommendations and the time and effort required to plan and prepare healthy meals.
 
 ## Main Objectives
+To develop a Food/recipe Recommendation system that suggests nutritious food to individuals and gym instructors thus promoting a healthy lifestyle
 
 
 ## Specific Objectives
+Identify the key features and factors that impact an individual's overall health, and determine which ones should be incorporated into the food recommendation system.
+Clean and preprocess the nutrition data available in the dataset, and combine it with external data sources to create a comprehensive nutrition database that can be used by the recommendation system.
+Develop and implement recommendation algorithms that can generate personalized food recommendations based on the user's individual characteristics such as age, gender, degree of physical activity, locally available foods, and dietary customs.
+Create a chatbot that can interact with users and collect relevant information such as dietary preferences, and restrictions, as well as any other relevant information that can be used to personalize food recommendations.
+Integrate the recommendation algorithms and chatbot into a user-friendly and intuitive interface that allows users to easily access and interact with the system.
+Deploy the food recommendation system and chatbot, and conduct user testing to gather feedback and identify areas for improvement.
+
 
 
 ## Data Preparation and modeling.
