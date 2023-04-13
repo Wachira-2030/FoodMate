@@ -25,6 +25,24 @@ This can lead to unhealthy eating habits and may have negative consequences on t
 
 
 ## Data Preparation and modeling.
+*Assessing the Data:* The recipe dataset contains  a list of 230186 rows of recipes and 12 columns while the nutrition dataset contains information on approximately 8.8 thousand types of food. The dataset includes various features related to the nutrition value of each food item per 100gram serving. There are 75 features in total, you can find features like calories, vitamin_d, zink, protein, lactose. 
+
+<br><br>
+*Data Cleaning:* A new dataframes were created to contain relevant features.  Data in the nutrition dataset were stripped of irrelevant characters, converted to float type and columns renamed to contain units of measurements.  Data in the recipe data frame was converted to object type to float. The dataframes were then checked to identify the presence of duplicates and missing values. The recipe dataset only had one missing value which was dropped. Outliers were then identified and removed.
+<br><br>
+*Exploring the Data/Selecting Features:* To build an effective food recommendation system, a comprehensive exploratory data analysis (EDA) was conducted. This involved examining the key features of the dataset, including nutrient information, calorie count, and serving size.
+<br><br>
+To get a better understanding of the dataset, visualizations such as scatter plots and  box plots were created. Scatter plots were used to explore the relationship between calorie count and various nutrients such as total fat, saturated fat, cholesterol, sodium, and potassium.
+<br><br>
+Box plots were used to examine the distribution of key nutrient values such as protein, carbohydrates, sugar, and sodium. These plots provided insights into the distribution of these values and helped to identify any potential outliers or anomalies.
+<br><br>
+In addition, a word cloud was utilized to capture a holistic view of the text and identify the most frequent ingredients used.
+<br><br>
+Overall, the EDA analysis provided valuable insights into the key features of the dataset and helped to identify any potential issues or challenges that needed to be addressed before building the food recommendation system.
+
+
+<br><br>
+*Making Predictions:* A baseline model was selected and various classifiers for modeling and the most promising ones fine-tuned. Recall and Accuracy were used as evaluation metrics. By utilizing a Random Forest Classifier, a 72% accuracy score was obtained and recall values of 0.75, 0.60, and 0.72 for the 'functional', 'functional needs repairs', and 'non-functional' categories. The 'functional needs repairs' category was the minority class, with a recall of 0.60.
 
 
 ## Conclusion.
