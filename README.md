@@ -42,7 +42,10 @@ Overall, the EDA analysis provided valuable insights into the key features of th
 
 
 <br><br>
-*Making Predictions:* A baseline model was selected and various classifiers for modeling and the most promising ones fine-tuned. Recall and Accuracy were used as evaluation metrics. By utilizing a Random Forest Classifier, a 72% accuracy score was obtained and recall values of 0.75, 0.60, and 0.72 for the 'functional', 'functional needs repairs', and 'non-functional' categories. The 'functional needs repairs' category was the minority class, with a recall of 0.60.
+*Making Predictions:* The project started off with a baseline model which was a class that takes in the data frame .The recommend method takes as input a target calorie value and the number of recommendations desired, and returns a list of food recommendations that have equal and less calories than the target calorie value.
+<br><br>
+The model was further advanced by coming up with  KNN and SVD models.  The KNN means model performed better and was tuned using the hyperparameters .
+
 
 
 ## Conclusion.
