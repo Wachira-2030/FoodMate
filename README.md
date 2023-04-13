@@ -1,4 +1,5 @@
 # FoodMate:From kitchen to table – Foodmate's got you covered with recipe recommendations.
+![2112 i101 031 S m004 c13 HACCP food safety isometric](https://user-images.githubusercontent.com/42667708/231758581-15d66932-efb6-48ce-adba-b646ec365746.jpg)
 
 ## Introduction
 
