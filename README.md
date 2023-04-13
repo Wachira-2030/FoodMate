@@ -11,11 +11,11 @@ The food and health industry is a highly competitive and crowded space. With so 
 <br><br>
 This can lead to unhealthy eating habits and may have negative consequences on their overall health and wellbeing. To address these challenges, stakeholders need to develop innovative solutions that provide personalized and convenient dietary recommendations. The food recommender system with a chatbot offers a unique and effective solution that addresses these challenges. It utilizes advanced technology to analyze an individual's weight and BMI and provides personalized diet recommendations for breakfast, lunch, and dinner. It also includes easy-to-follow recipes for each meal, making healthy eating more accessible and convenient for individuals. Overall, the business problem for stakeholders is to provide effective solutions that meet the needs of individuals in the highly competitive and crowded food and health industry. The food recommender system with a chatbot offers a unique and innovative solution that addresses the lack of personalized nutrition recommendations and the time and effort required to plan and prepare healthy meals.
 
-## Main Objectives
+## Main Objective.
 * To develop a Food/recipe Recommendation system that suggests nutritious food to individuals and gym instructors thus promoting a healthy lifestyle
 
 
-## Specific Objectives
+## Specific Objectives.
 * Identify the key features and factors that impact an individual's overall health, and determine which ones should be incorporated into the food recommendation system.
 * Clean and preprocess the nutrition data available in the dataset, and combine it with external data sources to create a comprehensive nutrition database that can be used by the recommendation system.
 * Develop and implement recommendation algorithms that can generate personalized food recommendations based on the user's individual characteristics such as age, gender, degree of physical activity, locally available foods, and dietary customs.
@@ -25,10 +25,10 @@ This can lead to unhealthy eating habits and may have negative consequences on t
 
 
 
-## Data Preparation and .
+## Data Preprocessing.
 *Assessing the Data:* The recipe dataset contains  a list of 230186 rows of recipes and 12 columns while the nutrition dataset contains information on approximately 8.8 thousand types of food. The dataset includes various features related to the nutrition value of each food item per 100gram serving. There are 75 features in total, you can find features like calories, vitamin_d, zink, protein, lactose. 
 
-## modeling
+## Modeling
 The project started off with a baseline model which was a class that takes in the data frame .The recommend method takes as input a target calorie value and the number of recommendations desired, and returns a list of food recommendations that have equal and less calories than the target calorie value.
 
 The model was further advanced by coming up with  KNN and SVD models.  The KNN means model performed better and was tuned using the hyperparameters .
@@ -80,5 +80,10 @@ In order to calculate nutritional recommendations for users, any algorithm needs
 <br><br>
 * food recommender systems should take into account constraints with regard to the availability of ingredients in the households 
 
+
+## Repository guide
+- The data report can be found [here](https://docs.google.com/document/d/1_aPR6ERRkovH0vZqwZC7jjUlQ6XsPyL0ozjMDvaFKFI/edit).
+- The notebook can be found [here](https://github.com/Wachira-2030/FoodMate/blob/main/FoodMate.ipynb)
+- The non-technical presentation can be found [here](https://www.canva.com/design/DAFf0RGFcRo/9LfaNHhe56W2hz1aeqTTRw/view?utm_content=DAFf0RGFcRo&utm_campaign=designshare&utm_medium=link&utm_source=viewer)
 
 
