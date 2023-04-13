@@ -24,8 +24,15 @@ This can lead to unhealthy eating habits and may have negative consequences on t
 
 
 
-## Data Preparation and modeling.
+## Data Preparation and .
 *Assessing the Data:* The recipe dataset contains  a list of 230186 rows of recipes and 12 columns while the nutrition dataset contains information on approximately 8.8 thousand types of food. The dataset includes various features related to the nutrition value of each food item per 100gram serving. There are 75 features in total, you can find features like calories, vitamin_d, zink, protein, lactose. 
+
+## modeling
+The project started off with a baseline model which was a class that takes in the data frame .The recommend method takes as input a target calorie value and the number of recommendations desired, and returns a list of food recommendations that have equal and less calories than the target calorie value.
+
+The model was further advanced by coming up with  KNN and SVD models.  The KNN means model performed better and was tuned using the hyperparameters .
+
+
 
 <br><br>
 *Data Cleaning:* A new dataframes were created to contain relevant features.  Data in the nutrition dataset were stripped of irrelevant characters, converted to float type and columns renamed to contain units of measurements.  Data in the recipe data frame was converted to object type to float. The dataframes were then checked to identify the presence of duplicates and missing values. The recipe dataset only had one missing value which was dropped. Outliers were then identified and removed.
@@ -49,12 +56,28 @@ The model was further advanced by coming up with  KNN and SVD models.  The KNN m
 
 
 ## Conclusion.
+* This model architecture  can be used to meet specific user calories by recommending specified calorie counts
 
+* A number of healthy recipes are available for users , making our  model diverse
+ 
+* Our project will greatly contribute to the health industry by helping individuals make more informed food choices
 
 
 ## Recommendations
+* The performance of the model can in the future include more recipes, especially for locally available foods.
+<br><br>
+* Continuously update and improve your system by incorporating user feedback and adding new features and datasets.
+<br><br>
+* Collect user preference data through surveys, feedback forms, or user interaction with the recommender system.
+
+## Minimum Viable Product
+In order to calculate nutritional recommendations for users, any algorithm needs the following information:
+<br><br>
+* User information (e.g., likes, dislikes, food consumption, or nutritional needs)
+<br><br>
+* A set of constraints or rules which will improve the quality of recommendation process. Constraints like health details (heart disease system should recommend menus with less fat and salt.)
+<br><br>
+* food recommender systems should take into account constraints with regard to the availability of ingredients in the households 
 
 
-
-## Deployment
 
